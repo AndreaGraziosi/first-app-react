@@ -1,0 +1,15 @@
+.POPOSSpace{
+    font-style:initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:slategrey;
+  }
+
+  .POPOSSpace {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .POPOSSpace > img {
+    width: 100%;
+    height: auto;
+  }
