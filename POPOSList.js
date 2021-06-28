@@ -8,9 +8,10 @@ import data from './sfpopos-data.json'
 
 function POPOSList() {
 
-  const  spaces = data.map(( { title, address, images, hours } ) => {
+  const  spaces = data.map(( { title, address, images, hours }, i ) => {
     return (
       <POPOSSpace
+        id={i}
         key={title}
         name={title}
         address={address}
@@ -19,6 +20,16 @@ function POPOSList() {
       />
     )
   })
+  return (
+    <div className="POPOSList">
+      { spaces }
+    </div>
+  )
+}
+
+export default POPOSList
+
+
 //below is the code before deconstruction
 
   // const spaces = data.map((obj) => {
@@ -31,14 +42,7 @@ function POPOSList() {
   //   )
   // })
 
-  return (
-    <div className="POPOSList">
-      { spaces }
-    </div>
-  )
-}
 
-export default POPOSList
 // const titles = data.map((obj) => {
 //   return <h1>{obj.title}</h1>
 // })
