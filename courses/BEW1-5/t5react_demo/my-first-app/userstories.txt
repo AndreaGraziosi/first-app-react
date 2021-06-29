@@ -1,0 +1,12 @@
+
+###User Stories:
+
+As a user I want to find all of the public open spaces in San Francisco
+>>>build a component that displays all of the spaces
+    >>>>> use cards in the grid to display a popo img and address
+           - component 1 POPOsspace- single space at an address
+           - component 2 PoPoSList- displays a list of spaces
+
+As a user I want to find a public open space near me
+>>>
+As a user I want to view details about pupblic open spaces I might want to visit.
