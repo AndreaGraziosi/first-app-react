@@ -1,13 +1,13 @@
 import { HashRouter as Router, Route } from 'react-router-dom'
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
-import Title from './Title';
-import POPOSList from './POPOSList';
-import Footer from './Footer';
-import './Footer.css';
-import About from './About'
-import POPOSDetails from './POPOSDetails'
+import Title from './components/Title';
+import POPOSList from './components/POPOSList';
+import Footer from './components/Footer';
+import './components/Footer.css';
+import About from './components/About';
+import POPOSDetails from './components/POPOSDetails';
 
 
 
